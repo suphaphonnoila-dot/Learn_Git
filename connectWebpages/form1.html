@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><form action=""></form></title>
+</head>
+<body>
+    
+<form id ="form1">​
+<label for="txtAddress">ที่อยู่ :</label>​
+<input id="txtAddress" type="text" maxlength=”200"​
+placeholder="กรุณาป้อนที่อยู่" required /><br />​
+
+<label for="txtSalary">เงินเดือน :</label>​
+<input id="txtSalary" type="number" ​
+min="1" max="100000" step="500"​
+value="15000"><br />​
+
+<button type="submit">บันทึก</button>​
+<button type="button">ยกเลิก</button>​
+</form> ​
+
+<br><br><br>
+<fieldset>​
+<legend>Login เข้าสู่ระบบ</legend>​
+
+<label for="UserName">UserName : </label>​
+<input type="text" name="UserName" ​
+placeholder="User Name" required autofocus /><br />​<br>
+
+<label for="Password">Password : </label>​
+<input type="password" name="Password"​
+placeholder="รหัสผ่าน" required /><br />​<br>
+
+<label for="PasswordAgain">PasswordAgain : </label>​
+<input type="password" name="PasswordAgain" ​
+placeholder="รหัสผ่านอีกครั้ง" required /><br />​<br>
+
+<input type="submit" name="cmdLogin" value="Login">​
+<input type="button" name="cmdCancel" value="Cancel">​
+</fieldset>​
+
+<br><br><br>
+<div>​
+ภาษาที่สนใจ :<br />​
+<form id="Form2"> ​
+<input id="chkVB" type="checkbox" value="vb" />Visual Basic<br />​
+<input id="chkCS" type="checkbox" value="cs" />Visual C#<br />​
+<input id="chkJava" type="checkbox" value="jv" />JAVA <br />​
+<input id="chkOther" type="checkbox" value="ot" />อื่นๆ ​
+</form>​
+</div>​
+
+<br><br><br>
+<div>​
+กรุณาระบุเพศ :<br />​
+<form id="Form3">​
+<input id="optMale" name="gender"​
+type="radio" value="male" />ชาย​
+<input id="optFemale" name="gender"​
+type="radio" value="female" />หญิง​
+<input id="optLGBT" name="gender"​
+type="radio" value="lgbt" />เพศทางเลือก ​
+</form>​
+</div>​
+
+
+</body>
+</html>
